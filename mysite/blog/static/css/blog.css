@@ -1,23 +1,33 @@
 body { 
     margin:0;
     padding:0;
-    font-family:helvetica, sans-serif; 
+    font-family:helvetica, sans-serif;
+    background-color: #ffffff; 
 }
 
 a { 
-    color:#00abff;
-    text-decoration:none; 
+    color:#fff;
+    text-decoration:none;
+    margin-left: 20px; 
 }
 
 h1 { 
-    font-weight:normal;
-    border-bottom:1px solid #bbb;
+    font-weight:bold;
+    border-bottom:1px solid rgb(221, 221, 221);
     padding:0 0 10px 0;
+    color: #ff072c;
+    background-color: #ffffff;
+    background-image:url(gradient.jpg);
 }
 
 h2 {
     font-weight:normal;
     margin:30px 0 0;
+    color:#000000;
+}
+
+h2 p{
+    color: #000000;
 }
 
 #content { 
@@ -25,17 +35,36 @@ h2 {
     width:60%;
     padding:0 0 0 30px; 
 }
+#content h2
+{
+    background-color:#db3727;
+    color: #fff;
+    
+    
+}
+
 
 #sidebar { 
     float:right;
     width:30%;
     padding:10px;
-    background:#efefef; 
+    background:#db3727; 
     height:100%;
+    
 }
-
+#sidebar h2
+{
+    color:#ffffff;
+    font-weight:bold;
+}
+#sidebar p
+{
+    color:#ffffff;
+    background-color: #bb2e21;
+    margin-left: 5px;
+}
 p.date { 
-    color:#ccc;
+    color:rgb(69, 69, 69);
     font-family: georgia, serif;
     font-size: 12px;
     font-style: italic; 
@@ -45,6 +74,9 @@ p.date {
 .pagination { 
     margin:40px 0; 
     font-weight:bold;
+}
+.pagination a{ 
+    color: #000000;
 }
 
 /* forms */
